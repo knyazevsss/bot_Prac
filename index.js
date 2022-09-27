@@ -6,7 +6,7 @@ const bot = new TelegramApi(token, {polling: true})
 
 const chats = {}
 
-}
+
 
 const startGame = async (chatId) => {
     await bot.sendMessage(chatId,`Сейчас я загадаю цифру от 0 до 9, а ты должен ее отгадать!`);
